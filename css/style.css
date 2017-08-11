@@ -2,6 +2,10 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: Arial,
+  "Microsoft YaHei", "微软雅黑",
+  STXihei, "华文细黑",
+  serif;
 }
 
 a:link {
@@ -116,3 +120,18 @@ a:active {
    color: darkred;
 }
 
+.grade-A {
+  color: green;
+}
+
+.grade-B {
+  color: #46b8da;
+}
+
+.grade-C {
+  color: orange;
+}
+
+.grade-F {
+  color: red;
+}
