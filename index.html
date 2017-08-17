@@ -35,7 +35,7 @@
                 <li role="presentation"><a href="ref.html">Reference</a></li>
             </ul>
         </nav>
-        <h3><a href="index.html">学习计划</a></h3>
+        <h3><a href="index.html">学习计划&nbsp;&nbsp;<span class="fa fa-bar-chart"></span></a></h3>
     </div>
 
     <div class="row">
@@ -61,59 +61,74 @@
         		</div>
         	</div>
         	<div class="navbar navbar-default" role="navigation">
-				<ul class="nav nav-pills  navbar-nav">
-					<li><a href="#week-context-01" data-toggle="collapse">第一周</a></li>
-					<li><a href="#week-context-02" data-toggle="collapse">第二周</a></li>
-					<li><a href="#week-context-03" data-toggle="collapse">第三周<span class="badge" style="vertical-align: super;font-size: 8px;background-color: orange;color: white ">new</span></a></li>
-					<li><a href="#week-context-04" data-toggle="collapse">第四周</a></li>
-				</ul>
+        		<div class="navbar-header">
+        			<button class="navbar-toggle" data-toggle="collapse" data-target="#topnavbar">
+        				<span class="fa fa-home fa-lg"></span>
+        			</button>
+        			<a href="##" class="navbar-brand"><span class="fa fa-book fa-lg"></span>&nbsp;学习内容</a>
+        		</div>
+        		<div class="collapse navbar-collapse" id="topnavbar">
+        			<ul class="nav navbar-nav">
+						<li><a href="#week-context-01" data-toggle="collapse">第一周</a></li>
+						<li><a href="#week-context-02" data-toggle="collapse">第二周</a></li>
+						<li><a href="#week-context-03" data-toggle="collapse">第三周<span class="badge" style="vertical-align: super;font-size: 8px;background-color: orange;color: white ">new</span></a></li>
+						<li><a href="#week-context-04" data-toggle="collapse">第四周</a></li>
+					</ul>
+        		</div>
 			</div>
 		</div>  
     </div><!-- row nav -->
 	<div class="row">
 		<div class="co-lg-12">
-			<div class="week-context collapse" id="week-context-01">
-				<h5 class="due-day">Due Day: 8月11日</h5>
-				<h5>
-					考核结果：<span class="grade-A">A</span>
-				</h5>
-				<br>
-				<h5>《JavaScript权威指南》</h5>
-				<ul>
-					<li>阅读 第1-5章</li>
-					<li><b>第3、4、5章</b>（重点，代码手敲一遍）</li>
-				</ul>
-				<br>
-				<h5>《HTML权威指南》</h5>
-				<ul>
-					<li>阅读 第2、5章</li>
-					<li><b>第5章</b>（重点，代码手敲一遍）</li>
-				</ul>
-				<br>
-				<h5>Git / Github</h5>
-				<ul>
-					<li>掌握init、add、commit、clone、push、pull等常用命令</li>
-					<li>了解Github上三个默认文件的作用README.md、.gitignore、LICENSE</li>
-					<li>在Github上传一个repo，练习操作</li>
-				</ul>
-				<br>
-				<h5>
-					<a href="#week-01-tip" data-toggle="collapse">&gt; 敲JS代码指南</a>
-				</h5>
-				<div id="week-01-tip" class="collapse">
-					<ul>
-						<li>工具：用Chrome的Developer Tools，打开之后在Console标签页敲js代码</li>
-						<li><img src="img/w01_01.jpg" class="img-responsive"
-							alt="Chrome的Developer Tools"></li>
-						<li>在下面这里敲JS代码<br>（注意：js是<b>解释型</b>语言，每输入一行代码都会立即返回结果，这点和Java和C那种<b>编译型</b>语言不一样）
-							</p></li>
-						<li><img src="img/w01_02.jpg" class="img-responsive"
-							alt="在Console标签页敲js代码"></li>
-					</ul>
+			<div class="row week-context collapse" id="week-context-01">
+				<div class="co-lg-12">
+					<h4><strong class="text-info text-center">第一周</strong></h4>
 				</div>
-				<hr>
+				<div class="co-lg-12">
+					<h5 class="due-day">Due Day: 8月11日</h5>
+					<h5>
+						考核结果：<span class="grade-A">A</span>
+					</h5>
+					<br>
+					<h5>《JavaScript权威指南》</h5>
+					<ul>
+						<li>阅读 第1-5章</li>
+						<li><b>第3、4、5章</b>（重点，代码手敲一遍）</li>
+					</ul>
+					<br>
+					<h5>《HTML权威指南》</h5>
+					<ul>
+						<li>阅读 第2、5章</li>
+						<li><b>第5章</b>（重点，代码手敲一遍）</li>
+					</ul>
+					<br>
+					<h5>Git / Github</h5>
+					<ul>
+						<li>掌握init、add、commit、clone、push、pull等常用命令</li>
+						<li>了解Github上三个默认文件的作用README.md、.gitignore、LICENSE</li>
+						<li>在Github上传一个repo，练习操作</li>
+					</ul>
+					<br>
+					<h5>
+						<a href="#week-01-tip" data-toggle="collapse">&gt; 敲JS代码指南</a>
+					</h5>
+					<div id="week-01-tip" class="collapse">
+						<ul>
+							<li>工具：用Chrome的Developer Tools，打开之后在Console标签页敲js代码</li>
+							<li><img src="img/w01_01.jpg" class="img-responsive"
+								alt="Chrome的Developer Tools"></li>
+							<li>在下面这里敲JS代码<br>（注意：js是<b>解释型</b>语言，每输入一行代码都会立即返回结果，这点和Java和C那种<b>编译型</b>语言不一样）
+								</p></li>
+							<li><img src="img/w01_02.jpg" class="img-responsive"
+								alt="在Console标签页敲js代码"></li>
+						</ul>
+					</div>
+					<hr>
+				</div>
 			</div>
+			
 			<div class="week-context collapse in" id="week-context-02">
+				<h4><strong class="text-info text-center">第二周</strong></h4>
 				<h5 class="due-day">Due Day: 8月18日</h5>
 				<h5>
 					考核结果：<span class="">?</span>
@@ -174,6 +189,7 @@
 				<hr>
 			</div>
 			<div class="week-context collapse" id="week-context-03">
+				<h4><strong class="text-info text-center">第三周</strong></h4>
 				<h5 class="due-day">Due Day: 8月25日</h5>
 				<h5>
 					考核结果：<span class="">?</span>
@@ -204,6 +220,7 @@
 				<hr>
 			</div>
 			<div class="week-context collapse" id="week-context-04">
+				<h4><strong class="text-info text-center">第四周</strong></h4>
 				<h5 class="due-day">Due Day: 9月??日</h5>
 				<h5>
 					考核结果：<span class="">?</span>
