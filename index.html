@@ -23,6 +23,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+   
 </head>
 
 <body>
@@ -40,193 +41,178 @@
 
     <div class="row">
         <div class="col-md-12">
+        	<!-- 底部固定导航 -->
         	<div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
         		<div class="navbar-header">
         			<!-- .navbar-toggle样式用于toggle收缩的内容，即nav-collapse collapse样式所在元素 -->
         			<button class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-        				<span class="fa fa-home fa-lg"></span>
+        				<span class="fa fa-reorder fa-lg"></span>
         			</button>
         			<!-- 确保无论是宽屏还是窄屏，navbar-brand都显示 -->
         			<a href="##" class="navbar-brand"><span class="fa fa-book fa-lg"></span>&nbsp;学习内容</a>
         		</div>
         		<div class="collapse navbar-collapse" id="navbar">
-        			<ul class="nav  navbar-nav">
-        				<li><a href="#week-context-01" data-toggle="collapse">第一周</a></li>
-        				<li><a href="#week-context-02" data-toggle="collapse">第二周</a></li>
-        				<li><a href="#week-context-03" data-toggle="collapse">第三周<span class="badge" style="vertical-align: super;font-size: 8px;background-color: orange;color: white ">new</span></a></li>
-        				<li><a href="#week-context-04" data-toggle="collapse">第四周</a></li>
+        			<ul class="nav  navbar-nav datanav">
+        				<li><a href="#week-context-01" >第一周</a></li>
+        				<li><a href="#week-context-02" >第二周</a></li>
+        				<li><a href="#week-context-03" >第三周<span class="badge" style="font-size: 4px;background-color: orange;color: white ">new</span></a></li>
+        				<li><a href="#week-context-04" >第四周</a></li>
         				<li role="presentation" class="active pull-right"><a href="index.html">Reading List</a></li>
                 		<li role="presentation" class="pull-rigth"><a href="ref.html">Reference</a></li>
         			</ul>
         		</div>
         	</div>
+        	<!-- 顶部导航 -->
         	<div class="navbar navbar-default" role="navigation">
         		<div class="navbar-header">
         			<button class="navbar-toggle" data-toggle="collapse" data-target="#topnavbar">
-        				<span class="fa fa-home fa-lg"></span>
+        				<span class="fa fa-reorder fa-lg"></span>
         			</button>
         			<a href="##" class="navbar-brand"><span class="fa fa-book fa-lg"></span>&nbsp;学习内容</a>
         		</div>
         		<div class="collapse navbar-collapse" id="topnavbar">
-        			<ul class="nav navbar-nav">
-						<li><a href="#week-context-01" data-toggle="collapse">第一周</a></li>
-						<li><a href="#week-context-02" data-toggle="collapse">第二周</a></li>
-						<li><a href="#week-context-03" data-toggle="collapse">第三周<span class="badge" style="vertical-align: super;font-size: 8px;background-color: orange;color: white ">new</span></a></li>
-						<li><a href="#week-context-04" data-toggle="collapse">第四周</a></li>
+        			<ul class="nav navbar-nav datanav">
+						<li><a href="#week-context-01">第一周</a></li>
+						<li><a href="#week-context-02">第二周</a></li>
+						<li><a href="#week-context-03">第三周<span class="badge" style="font-size: 4px;background-color: orange;color: white ">new</span></a></li>
+						<li><a href="#week-context-04">第四周</a></li>
 					</ul>
         		</div>
 			</div>
 		</div>  
     </div><!-- row nav -->
 	<div class="row">
-		<div class="co-lg-12">
-			<div class="row week-context collapse" id="week-context-01">
-				<div class="co-lg-12">
-					<h4><strong class="text-info text-center">第一周</strong></h4>
+		<div class="co-lg-12" >
+			<div class="week-context collapse panel panel-info" id="week-context-01" style="margin-left: 0px">
+				<div class="panel-heading">
+					<span class="h4"><strong class="text-info text-center">第一周&nbsp;&nbsp;<i class="fa fa-calendar"></i></strong>&nbsp;&nbsp;<span class="due-day h5">Due Day: 8月11日</span></span>
+					<span class="h5 pull-right">考核结果：<span class="grade-A">A</span></span>
 				</div>
-				<div class="co-lg-12">
-					<h5 class="due-day">Due Day: 8月11日</h5>
-					<h5>
-						考核结果：<span class="grade-A">A</span>
-					</h5>
-					<br>
-					<h5>《JavaScript权威指南》</h5>
-					<ul>
-						<li>阅读 第1-5章</li>
-						<li><b>第3、4、5章</b>（重点，代码手敲一遍）</li>
+				<div class="panel-body">
+					<h5>&nbsp;&nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;&nbsp;《JavaScript权威指南》</h5>
+					<ul class="list-group">
+						<li class="list-group-item list-group-item-success">阅读 第1-5章</li>
+						<li class="list-group-item list-group-item-success"><b>第3、4、5章</b>（重点，代码手敲一遍）</li>
 					</ul>
 					<br>
-					<h5>《HTML权威指南》</h5>
-					<ul>
-						<li>阅读 第2、5章</li>
-						<li><b>第5章</b>（重点，代码手敲一遍）</li>
+					<h5>&nbsp;&nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;&nbsp;《HTML权威指南》</h5>
+					<ul class="list-group">
+						<li class="list-group-item list-group-item-success">阅读 第2、5章</li>
+						<li class="list-group-item list-group-item-success"><b>第5章</b>（重点，代码手敲一遍）</li>
 					</ul>
 					<br>
-					<h5>Git / Github</h5>
-					<ul>
-						<li>掌握init、add、commit、clone、push、pull等常用命令</li>
-						<li>了解Github上三个默认文件的作用README.md、.gitignore、LICENSE</li>
-						<li>在Github上传一个repo，练习操作</li>
+					<h5>&nbsp;&nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;&nbsp;Git / Github</h5>
+					<ul class="list-group">
+						<li class="list-group-item list-group-item-success">掌握<code class="text-primary">init</code>、<code class="text-primary">add</code>、<code class="text-primary">commit</code>、<code class="text-primary">clone</code>、<code class="text-primary">push</code>、<code class="text-primary">pull</code>等常用命令</li>
+						<li class="list-group-item list-group-item-success">了解Github上三个默认文件的作用README.md、.gitignore、LICENSE</li>
+						<li class="list-group-item list-group-item-success">在Github上传一个repo，练习操作</li>
 					</ul>
 					<br>
 					<h5>
-						<a href="#week-01-tip" data-toggle="collapse">&gt; 敲JS代码指南</a>
+						<a href="#week-01-tip" data-toggle="collapse"><i class="fa fa-mail-forward fa-lg"></i>&nbsp;敲JS代码指南</a>
 					</h5>
 					<div id="week-01-tip" class="collapse">
-						<ul>
-							<li>工具：用Chrome的Developer Tools，打开之后在Console标签页敲js代码</li>
-							<li><img src="img/w01_01.jpg" class="img-responsive"
-								alt="Chrome的Developer Tools"></li>
-							<li>在下面这里敲JS代码<br>（注意：js是<b>解释型</b>语言，每输入一行代码都会立即返回结果，这点和Java和C那种<b>编译型</b>语言不一样）
-								</p></li>
-							<li><img src="img/w01_02.jpg" class="img-responsive"
-								alt="在Console标签页敲js代码"></li>
+						<ul class="list-group">
+							<li class="list-group-item list-group-item-success">工具：用Chrome的Developer Tools，打开之后在Console标签页敲js代码</li>
+							<li class="list-group-item list-group-item-success"><img src="img/w01_01.jpg" class="img-responsive" alt="Chrome的Developer Tools"></li>
+							<li class="list-group-item list-group-item-success">在下面这里敲JS代码<br>（注意：js是<b>解释型</b>语言，每输入一行代码都会立即返回结果，这点和Java和C那种<b>编译型</b>语言不一样）</p></li>
+							<li class="list-group-item list-group-item-success"><img src="img/w01_02.jpg" class="img-responsive" alt="在Console标签页敲js代码"></li>
 						</ul>
 					</div>
 					<hr>
 				</div>
 			</div>
 			
-			<div class="week-context collapse in" id="week-context-02">
-				<h4><strong class="text-info text-center">第二周</strong></h4>
-				<h5 class="due-day">Due Day: 8月18日</h5>
-				<h5>
-					考核结果：<span class="">?</span>
-				</h5>
-				<br>
-				<h5>《JavaScript权威指南》</h5>
-				<ul>
-					<li>阅读 3.10，5.7.1</li>
-					<li><b>第6、7章</b>（重点，代码手敲一遍）</li>
-					<li>阅读 第10章，了解regex在js中的应用</li>
-				</ul>
-				<br>
-				<h5>Bootstrap</h5>
-				<ul>
-					<li>首要掌握内容：responsive设计（自适应），gird（网格系统），navbar（导航），<a
-						href="https://www.w3schools.com/bootstrap/bootstrap_ref_js_collapse.asp"
-						target="_blank">data-toggle</a></li>
-					<li><a href="http://www.imooc.com/learn/141" target="_blank">慕课网视频教程</a>
-						掌握Bootstrap的基本功能</li>
-					<li>（英文官网现在是v4 alpha版，改动不少，推荐用<a
-						href="http://v3.bootcss.com/">v3版本</a>）
-					</li>
-				</ul>
-				<br>
-				<h5>Font Awesome</h5>
-				<ul>
-					<li>掌握 <a href="http://fontawesome.io/" target="_blank">Font
-							Awesome</a></li>
-					<li>如果能在页面中成功显示Font Awesome相关字体图标，既算成功掌握</li>
-				</ul>
-				<br>
-				<h5>
-					<a href="#week-02-proj-1" data-toggle="collapse">&gt; Week 2
-						Project #1</a>
-				</h5>
-				<div id="week-02-proj-1" class="collapse in">
-					<ul>
-						<li>在Github里clone本网站的<a
-							href="https://github.com/endaye/web-gj-reading-list">源代码</a></li>
-						<li>已经将enzu2012添加到repo的Collaborators中，获得本网站的全部代码权限，请检查Github注册邮箱确认邀请</li>
-						<li>用本周学到的Bootstrap和FontAwesome技术，将页面进行优化和美化</li>
-						<li>用第一周所学到的Git技术，将每次优化和更新push到Github上</li>
-						<li>本项目推荐使用IDE：<b>WebStorm</b></li>
-						<li>本项目的优化结果会算在第二周学习考核中</li>
-					</ul>
+			<div class="week-context collapse in panel panel-info" id="week-context-02" style="margin-left: 0px">
+				<div class="panel-heading">
+					<span class="h4"><strong class="text-info text-center">第二周&nbsp;&nbsp;<i class="fa fa-calendar"></i></strong>&nbsp;&nbsp;<span class="due-day h5">Due Day: 8月18日</span></span>
+					<span class="h5 pull-right">考核结果：<span class="grade-A">?</span></span>
 				</div>
-				<br>
-				<h5>
-					<a href="#week-02-proj-2" data-toggle="collapse">&gt; Week 2
-						Project #2</a>
-				</h5>
-				<div id="week-02-proj-2" class="collapse">
-					<ul>
-						<li>（未确定）</li>
-						<li>公司官网的页面重构优化</li>
+				<div class="panel-body">
+					<h5>&nbsp;&nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;&nbsp;《JavaScript权威指南》</h5>
+					<ul class="list-group">
+						<li class="list-group-item list-group-item-success">阅读 3.10，5.7.1</li>
+						<li class="list-group-item list-group-item-success"><b>第6、7章</b>（重点，代码手敲一遍）</li>
+						<li class="list-group-item list-group-item-success">阅读 第10章，了解regex在js中的应用</li>
 					</ul>
-				</div>
-				<hr>
+					<br>
+					<h5>&nbsp;&nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;&nbsp;Bootstrap</h5>
+					<ul class="list-group">
+						<li class="list-group-item list-group-item-success">首要掌握内容：responsive设计（自适应），gird（网格系统），navbar（导航），<a href="https://www.w3schools.com/bootstrap/bootstrap_ref_js_collapse.asp" target="_blank">data-toggle</a></li>
+						<li class="list-group-item list-group-item-success"><a href="http://www.imooc.com/learn/141" target="_blank">慕课网视频教程</a>掌握Bootstrap的基本功能</li>
+						<li class="list-group-item list-group-item-success">（英文官网现在是v4 alpha版，改动不少，推荐用<a href="http://v3.bootcss.com/">v3版本</a>）</li>
+					</ul>
+					<br>
+					<h5>&nbsp;&nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;&nbsp;Font Awesome</h5>
+					<ul class="list-group">
+						<li class="list-group-item list-group-item-success">掌握 <a href="http://fontawesome.io/" target="_blank">Font Awesome</a></li>
+						<li class="list-group-item list-group-item-success">如果能在页面中成功显示Font Awesome相关字体图标，既算成功掌握</li>
+					</ul>
+					<br>
+					<h5>
+						<a href="#week-02-proj-1" data-toggle="collapse">&nbsp;&nbsp;<i class="fa fa-mail-forward fa-lg"></i>&nbsp; Week 2 Project #1&nbsp;</a>
+					</h5>
+					<div id="week-02-proj-1" class="collapse in">
+						<ul class="list-group">
+							<li class="list-group-item list-group-item-success">在Github里clone本网站的<a href="https://github.com/endaye/web-gj-reading-list">源代码</a></li>
+							<li class="list-group-item list-group-item-success">已经将enzu2012添加到repo的Collaborators中，获得本网站的全部代码权限，请检查Github注册邮箱确认邀请</li>
+							<li class="list-group-item list-group-item-success">用本周学到的Bootstrap和FontAwesome技术，将页面进行优化和美化</li>
+							<li class="list-group-item list-group-item-success">用第一周所学到的Git技术，将每次优化和更新push到Github上</li>
+							<li class="list-group-item list-group-item-success">本项目推荐使用IDE：<b>WebStorm</b></li>
+							<li class="list-group-item list-group-item-success">本项目的优化结果会算在第二周学习考核中</li>
+						</ul>
+					</div>
+					<br>
+					<h5>
+						<a href="#week-02-proj-2" data-toggle="collapse">&nbsp;&nbsp;<i class="fa fa-mail-forward fa-lg"></i>&nbsp;Week 2 Project #2&nbsp;</a>
+					</h5>
+					<div id="week-02-proj-2" class="collapse">
+						<ul class="list-group">
+							<li class="list-group-item list-group-item-success">（未确定）</li>
+							<li class="list-group-item list-group-item-success">公司官网的页面重构优化</li>
+						</ul>
+					</div>
+					<hr>
+				</div> 
 			</div>
-			<div class="week-context collapse" id="week-context-03">
-				<h4><strong class="text-info text-center">第三周</strong></h4>
-				<h5 class="due-day">Due Day: 8月25日</h5>
-				<h5>
-					考核结果：<span class="">?</span>
-				</h5>
-				<br>
-				<h5>《JavaScript权威指南》</h5>
-				<ul>
-					<li>回顾章节 3.10、5.7.1，掌握作用域链</li>
-					<li><b>第8、9章</b>（js最最重点，代码手敲一遍）</li>
-				</ul>
-				<br>
-				<h5>《HTML权威指南》</h5>
-				<ul>
-					<li>阅读 2.4、第11-14章</li>
-					<li>简单了解<a href="https://nodejs.org/en/">node.js</a>（版本用v6）
-					</li>
-				</ul>
-				<br>
-				<h5>
-					<a href="#week-03-proj" data-toggle="collapse">&gt; Week 3
-						Project</a>
-				</h5>
-				<div id="week-03-proj" class="collapse in">
-					<ul>
-						<li>Coming Soon...</li>
-					</ul>
+			<div class="week-context collapse panel panel-info" id="week-context-03" style="margin-left: 0px">
+				<div class="panel-heading">
+					<span class="h4"><strong class="text-center">第三周&nbsp;&nbsp;<i class="fa fa-calendar"></i></strong>&nbsp;&nbsp;<span class="due-day h5">Due Day: 8月25日</span></span>
+					<span class="h5 pull-right">考核结果：<span class="grade-">?</span></span>
 				</div>
-				<hr>
+				<div class="panel-body">
+					<br>
+					<h5>&nbsp;&nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;&nbsp;《JavaScript权威指南》</h5>
+					<ul class="list-group">
+						<li class="list-group-item list-group-item-success">回顾章节 3.10、5.7.1，掌握作用域链</li>
+						<li class="list-group-item list-group-item-success"><b>第8、9章</b>（js最最重点，代码手敲一遍）</li>
+					</ul>
+					<h5>&nbsp;&nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;&nbsp;《HTML权威指南》</h5>
+					<ul class="list-group">
+						<li class="list-group-item list-group-item-success">阅读 2.4、第11-14章</li>
+						<li class="list-group-item list-group-item-success">简单了解<a href="https://nodejs.org/en/">node.js</a>（版本用v6）</li>
+					</ul>
+					<br>
+					<h5>
+						<a href="#week-03-proj" data-toggle="collapse">&nbsp;&nbsp;<i class="fa fa-mail-forward fa-lg"></i>&nbsp;Week 3 Project&nbsp;</a>
+					</h5>
+					<div id="week-03-proj" class="collapse in">
+						<ul class="list-group">
+							<li class="list-group-item list-group-item-success">Coming Soon...</li>
+						</ul>
+					</div>
+					<hr>
+				</div>
 			</div>
-			<div class="week-context collapse" id="week-context-04">
-				<h4><strong class="text-info text-center">第四周</strong></h4>
-				<h5 class="due-day">Due Day: 9月??日</h5>
-				<h5>
-					考核结果：<span class="">?</span>
-				</h5>
-				<br>
-				<h5>Coming Soon...</h5>
+			<div class="week-context collapse panel panel-info" id="week-context-04" style="margin: 0px">
+				<div class="panel-heading">
+					<span class="h4"><strong class="text-info text-center">第四周&nbsp;&nbsp;<i class="fa fa-calendar"></i></strong>&nbsp;&nbsp;<span class="due-day h5">Due Day: 9月??日</span></span>
+					<span class="h5 pull-right">考核结果：<span class="grade-">?</span></span>
+				</div>
+				<div class="panel-body">
+					<br>
+					<h5>&nbsp;&nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;&nbsp;Coming Soon...</h5>
+				</div>
 			</div>
 		</div>
 	</div><!-- row context -->
@@ -237,5 +223,28 @@
 </div> <!-- /container -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+    function hideElse(obj){
+    	var name=jQuery(obj).children("a").attr("href");
+    	var target=name.substr(1,name.length);
+    	jQuery(".week-context").each(function(){
+    		var idname=jQuery(this).attr("id");
+    		if(target===idname){
+    			jQuery(this).slideDown();
+    		}else{
+    			jQuery(this).hide();
+    		}
+    	})
+    	
+    };
+    jQuery(function(){
+    	jQuery(".datanav").children("li").each(function(){
+    		jQuery(this).on("click",function(){
+    			hideElse(this);
+    		});
+    	});
+    });
+    	
+ </script>
 </body>
 </html>
