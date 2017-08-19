@@ -3,8 +3,8 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: Arial,
-  "Microsoft YaHei", "Î¢ÈíÑÅºÚ",
-  STXihei, "»ªÎÄÏ¸ºÚ",
+  "Microsoft YaHei", "Î¢ï¿½ï¿½ï¿½Åºï¿½",
+  STXihei, "ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½",
   serif;
   background: url(../img/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -142,4 +142,12 @@ a:active {
 }
 .panel{
 	margin:0px;
+}
+.tip{
+  width: 30em;
+  height: auto;
+  position: fixed;
+  z-index: 2008;
+  left: 10em;
+  top: 10em;
 }
