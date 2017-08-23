@@ -133,7 +133,7 @@
 
 				<!--提示信息面板-->
 
-				<div class="panel panel-warning collapse in tip" id="tip01">
+				<div class="panel panel-warning collapse tip" id="tip01">
 					<div class="panel-heading">
 						<i class="fa fa-pencil-square-o"></i>来自师父的提醒
 
@@ -208,7 +208,7 @@
 
 				<!--提示信息面板-->
 
-				<div class="panel panel-warning collapse in tip" id="tip02">
+				<div class="panel panel-warning collapse tip" id="tip02">
 					<div class="panel-heading">
 						<i class="fa fa-pencil-square-o"></i>来自师父的提醒
 						<span class="fa fa-window-close-o fa-lg btn btn-default btn-xs pull-right" style="padding-left: 0px;padding-right: 0px" data-toggle="collapse" data-target="#tip02"></span>
@@ -283,7 +283,7 @@
 				</div>
 				<!--提示信息面板-->
 
-				<div class="panel panel-warning collapse in tip" id="tip03">
+				<div class="panel panel-warning collapse tip" id="tip03">
 					<div class="panel-heading">
 						<i class="fa fa-pencil-square-o"></i>来自师父的提醒
 
@@ -332,7 +332,7 @@
 				</div>
 				<!--提示信息面板-->
 
-				<div class="panel panel-warning collapse in tip" id="tip04">
+				<div class="panel panel-warning collapse tip" id="tip04">
 					<div class="panel-heading">
 						<i class="fa fa-pencil-square-o"></i>来自师父的提醒
 
@@ -370,28 +370,6 @@
 </div> <!-- /container -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
-<script type="text/javascript">
-    function hideElse(obj){
-    	var name=jQuery(obj).children("a").attr("href");
-    	var target=name.substr(1,name.length);
-    	jQuery(".week-context").each(function(){
-    		var idname=jQuery(this).attr("id");
-    		if(target===idname){
-    			jQuery(this).slideDown();
-    		}else{
-    			jQuery(this).hide();
-    		}
-    	})
-    	
-    };
-    jQuery(function(){
-    	jQuery(".datanav").children("li").each(function(){
-    		jQuery(this).on("click",function(){
-    			hideElse(this);
-    		});
-    	});
-    });
-    	
- </script>
+<script src="js/myJavaScript.js"></script>
 </body>
 </html>

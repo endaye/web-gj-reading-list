@@ -144,10 +144,10 @@ a:active {
 	margin:0px;
 }
 .tip{
-  width: 400px;
+  width: 20em;
   height: auto;
   position: fixed;
   z-index: 2008;
-  left: 60px;
-  top: 80px;
+  left: 5em;
+  top: 30px;
 }
